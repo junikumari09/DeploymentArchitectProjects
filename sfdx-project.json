@@ -1,0 +1,35 @@
+{
+  "packageDirectories": [
+    {
+      "path": "./es-base-objects",
+      "default": true,
+      "package": "ESObjects",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": "ES Objects"
+    },
+    {
+      "path": "./es-base-code",
+      "package": "ESCode",
+      "versionName": "ver 0.1",
+      "versionNumber": "57.1.0.NEXT",
+      "default": false,
+      "versionDescription": "ES Code",
+      "dependencies": [
+        {
+          "package": "ESObjects",
+          "versionNumber": "0.1.0.LATEST"
+        }
+      ]
+    }
+  ],
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "57.0",
+  "packageAliases": {
+    "ESObjects": "0HoGA000000Cb2D0AS",
+    "ESObjects@0.1.0-1": "04tGA000005VfouYAC",
+    "ESCode": "0HoGA000000Cb2I0AS",
+    "ESCode@57.1.0-1": "04tGA000005Vft7YAC"
+  }
+}
